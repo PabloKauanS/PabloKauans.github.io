@@ -1,0 +1,14 @@
+.animacao-esquerda {
+  animation: animacao-esquerda 5s linear infinite;
+}
+.animacao-esquerda::after {
+  content: " Pablokauanoficial@gmail.com";
+}
+@keyframes animacao-esquerda {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-251px);
+  }
+}

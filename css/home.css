@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 20% 1fr;
   color: var(--main-texto-cor);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 .perfil-caixa {
   background-color: var(--bio-bg-cor);
@@ -21,6 +21,14 @@
 }
 .perfil-descricao + .perfil-descricao {
   font-weight: bold;
+}
+.contato-caixa {
+  overflow: hidden;
+}
+.img-email{
+  position: relative;
+  background-color: #1e2a3a;
+  z-index: 1;
 }
 .contato-caixa a {
   display: flex;
