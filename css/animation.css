@@ -2,13 +2,15 @@
   animation: animacao-esquerda 5s linear infinite;
 }
 .animacao-esquerda::after {
-  content: " Pablokauanoficial@gmail.com";
+  content: "Pablokauanoficial@gmail.com";
+  display: inline-block;
+  padding-left: 30px;
 }
 @keyframes animacao-esquerda {
   from {
     transform: translateX(0px);
   }
   to {
-    transform: translateX(-251px);
+    transform: translateX(-275px);
   }
 }
