@@ -7,17 +7,17 @@
 .perfil-caixa {
   background-color: var(--bio-bg-cor);
   text-align: center;
-  padding: 30px 12px;
+  padding: 1.875rem 0.75rem;
   border: solid 5px var(--bio-borda-cor);
   min-height: 100vh;
 }
 .perfil-foto {
   border-radius: 50%;
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 .perfil-nome,
 .perfil-descricao {
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 }
 .perfil-descricao + .perfil-descricao {
   font-weight: bold;
@@ -25,7 +25,7 @@
 .contato-caixa {
   overflow: hidden;
 }
-.img-email{
+.img-email {
   position: relative;
   background-color: #1e2a3a;
   z-index: 1;
@@ -34,9 +34,9 @@
   display: flex;
   width: max-content;
   align-items: center;
-  margin-top: 15px;
-  gap: 5px;
-  font-size: 15px;
+  margin-top: 0.938rem;
+  gap: 0.313rem;
+  font-size: 0.938rem;
   color: var(--main-texto-cor);
 }
 .detalhe {
@@ -44,32 +44,32 @@
 }
 .sobre-caixa {
   background-color: var(--sobre-bg-cor);
-  padding: 50px;
+  padding: 3.125rem;
 }
 .sobre-nome {
-  font-size: 42px;
-  margin-bottom: 15px;
+  font-size: 2.625rem;
+  margin-bottom: 0.938rem;
 }
 .sobre-titulo {
-  font-size: 24px;
-  margin-bottom: 15px;
+  font-size: 1.5rem;
+  margin-bottom: 0.938rem;
   font-weight: bold;
 }
 .sobre-caixa p {
   max-width: 75%;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 .botao-projetos {
   display: flex;
-  font-size: 16px;
-  padding: 12px 10px;
+  font-size: 1rem;
+  padding: 0.75rem 0.625rem;
   background-color: var(--main-cor);
-  border: 2px solid var(--main-cor);
+  border: 0.125rem solid var(--main-cor);
   width: max-content;
   color: var(--main-texto-cor);
-  border-radius: 5px;
-  margin: 25px 0px;
-  gap: 5px;
+  border-radius: 0.313rem;
+  margin: 1.563rem 0px;
+  gap: 0.313rem;
   font-weight: bold;
   transition: 0.5s;
   align-items: center;
@@ -78,28 +78,28 @@
   background-color: transparent;
 }
 .sobre-titulo-habiliades {
-  font-size: 32px;
-  margin-bottom: 20px;
-  padding-top: 20px;
+  font-size: 2rem;
+  margin-bottom: 1.25rem;
+  padding-top: 1.25rem;
 }
 .conteudo-caixa {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
-  gap: 35px 10px;
+  gap: 2.188rem 0.625rem;
 }
 .conteudo-caixa div {
   display: grid;
-  gap: 10px;
+  gap: 0.625rem;
   grid-template-columns: repeat(auto-fit, minmax(45px, auto));
 }
 .item-titulo {
-  font-size: 24px;
-  height: 27px;
+  font-size: 1.5rem;
+  height: 1.688rem;
   font-weight: bold;
-  padding-left: 10px;
+  padding-left: 0.625rem;
   grid-column: 1 / -1;
-  border-left: 5px solid var(--main-cor);
+  border-left: 0.313rem solid var(--main-cor);
 }
 .conteudo-caixa i {
-  font-size: 45px;
+  font-size: 2.813rem;
 }
