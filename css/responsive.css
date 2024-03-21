@@ -39,6 +39,9 @@
     width: 3.813rem;
     height: 3.813rem;
   }
+  .sobre-titulo-habiliades + p{
+    margin-bottom: 3rem;
+  }
 }
 
 @media (max-width: 340px) {
