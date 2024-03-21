@@ -1,6 +1,6 @@
 .conteudo {
   display: grid;
-  grid-template-columns: 20% 1fr;
+  grid-template-columns: minmax(220px, 20%) 1fr;
   color: var(--main-texto-cor);
   font-family: "Courier New", Courier, monospace;
 }
